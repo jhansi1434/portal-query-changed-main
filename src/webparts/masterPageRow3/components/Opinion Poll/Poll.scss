@@ -1,0 +1,20 @@
+.formBtnOpened{
+  transform: rotate(45deg);
+  color:#00b87b;
+  transition: 300ms;
+}
+
+.formBtn{
+  color:#00b87b;
+  transition: 300ms;
+}
+
+.formBtn:hover{
+  cursor: pointer;
+  color:#01e69a;
+}
+
+.formBtnOpened:hover{
+  cursor: pointer;
+  color:#01e69a;
+}

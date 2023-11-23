@@ -1,0 +1,82 @@
+.Containers1 {
+   min-width: 100% !important;
+   display: flex;
+   height: auto;
+   color: black;
+   font-size: 12px;
+   text-align: center;
+   margin: 2px 0px;
+}
+
+.rowMains {
+    overflow: hidden;
+    width: 96%;
+    height: 43%;
+    float: right;
+    background-color: #fff;
+    background-image: url(https://zelarsoft1.sharepoint.com/sites/Zelardemo/SiteAssets/KaiZan-bg.png);
+    background-size: 61% 92%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.row11 {
+   z-index: -1;
+   background-color: #0078D4;
+   margin: 5px;
+   border-radius: 10px;
+   color: black;
+   text-align: center;
+}
+
+.row2container__part1 {
+   transition: .3s;
+   width: 66.7%;
+   height: 265px;
+   overflow: hidden;
+   background-color: #000;
+   margin:16px 16px 16px 0;
+   border: 1px solid #eef2f5;
+   border-radius: 16px;
+}
+
+.row2container {
+   display: flex;
+   flex-direction: row;
+
+   &__part2 {
+      display: flex;
+      width: 33%;
+      flex-direction: column;
+      margin-top: 16px;
+      row-gap: 5px;
+
+      &_quicklinks{
+         display: grid;
+         margin: 1px 0px 3px 0px;
+         float: right;
+         color: #000;
+         grid-template-columns: 31% 31% 31%;
+         row-gap: 5px;
+         column-gap: 5px;
+      }
+      &__item {
+         background-color: #FFFFFF;
+         border-radius: 16px;
+         padding: 5px;
+         box-shadow: none; 
+      }
+   }
+}
+
+   
+.react-slideshow-container .nav:last-of-type {
+   right: 16px !important;
+   opacity: 0.2;
+}
+.react-slideshow-container .nav:first-of-type {
+   left: 16px !important;
+   opacity: 0.2;
+}

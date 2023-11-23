@@ -1,0 +1,58 @@
+textarea {
+  margin: 5px;
+  resize: none;
+  height: 75px;
+  width: 98%;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  outline: none;
+}
+
+.feedbackTitle {
+  padding: 3px 12px;
+}
+
+.formDiv {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.submitBtn {
+  position: absolute;
+  bottom: -18px;
+  right: 17px;
+  z-index: 999;
+}
+
+.submitBtn button {
+  background-color: #5891bb;
+  padding: 7px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 10px;
+}
+
+.msgopen {
+  display: flex;
+  color: green;
+  transition: 4ms;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.msgclose {
+  display: none;
+  transition: 4ms;
+}
+
+.btnDivHide {
+  display: none;
+}
+
+.btnDivShow {
+  display: block;
+}

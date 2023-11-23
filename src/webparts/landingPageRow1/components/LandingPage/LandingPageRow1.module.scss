@@ -1,0 +1,51 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.rowMain {
+  border-right: 2px solid white;
+}
+
+.row1 {
+  animation: marquee 10s linear infinite;
+  margin-top: 140px !important;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.row2 {
+  z-index: -1;
+  background-color: black;
+}
+
+
+.row3 {
+  animation: marquee 10s linear infinite;
+  margin-top: 220px !important;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.carousel-item:not(.active) {
+  display: none;
+}

@@ -1,0 +1,204 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.carousel-indicators {
+  font-size: 20px;
+}
+
+.Containers {
+  span {
+    display: none;
+    word-spacing: 10px;
+    text-decoration: none;
+  }
+  padding: 0px;
+  color: black;
+  font-size: 12px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  text-align: center;
+}
+
+.birthday {
+  background: hsla(0,0%,100%,.231372549) 0 0 no-repeat padding-box;
+  padding: 14px;
+  color: #fff;
+  margin: 4px;
+  text-align: left;
+  border-radius: 16px;
+  &--sub1{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  &--sub2{
+    color: white;
+    font-size: 14px;
+  }
+}
+
+
+.row1 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.row2 {
+  background-color: #345978;
+  position: relative;
+  z-index: 9999;
+  height: 29px;
+  top: 0px;
+  color: white;
+}
+
+
+.row3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.carousel-item:not(.active) {
+  display: none;
+}
+
+.row4 {
+  height: 250px;
+  background: url("https://zelarsoft1.sharepoint.com/sites/Zelardemo/SiteAssets/BirthdaysVideo.gif");
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -9px;
+}
+
+.row4NoBday {
+  width: 99%;
+  height: 250px;
+
+}
+.round li {
+  background: hsla(0,0%,100%,.23137254901960785) 0 0 no-repeat padding-box;
+  border-radius: 16px;
+  padding: 14px;
+  color: #fff;
+  margin: 4px;
+  text-align: left;
+  font-size: 16px;
+  a{
+    margin: 10px;
+  }
+}
+
+.inCard {
+  width: 295px;
+  height: 387px;
+  border-radius: 16px;
+  padding: 20px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  &-list{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    p{
+      font-size: 12px;
+    }
+    &--icon{
+    display: flex;
+    align-items: center;
+    color: #FF16A2;
+    }
+    &--icon1{
+      display: flex;
+      align-items: center;
+      color: #7117c9;
+      padding: 4px;
+    }
+  }
+
+  &.bg-gradient-1{
+    background: linear-gradient(to bottom, #08C4EE 0%, #09C3EE 3%, #9341FD 100%);
+  }
+  &.bg-gradient-2{
+    background: linear-gradient(to bottom, #000000 0%, #000000 100%);
+  }
+  &.bg-gradient-3{
+    background: linear-gradient(to bottom, #7117C9 0%, #8A29EF 100%);
+  }
+  &.bg-gradient-4{
+    background: linear-gradient(to bottom, #FF16A2 0%, #BE3BCE 100%);
+  }
+
+  &--header {
+    text-align: left;
+    color: #fff;
+    &.one{
+      font-size: 14px; 
+    }
+    &.two{
+      font-size: 22px; 
+    }
+    &.three{
+      font-size: 18px; 
+    }
+  }
+  &--nofooter{
+    display: none;
+  }
+}
+
+
+.Footer{
+  padding: 10px;
+  margin: auto;
+  
+  &-Button1{
+    height: 32px;
+    width: 95px;
+    border-radius: 8px;
+    border: none;
+    color: #8A29EF;
+    background-color: #FFFFFF;
+    font-size: 15px;
+  }
+  // &-Button2{
+  //   height: 32px;
+  //   width: 95px;
+  //   border-radius: 8px;
+  //   border: none;
+  //   color: #48535E;
+  //   background-color: #FFFFFF;
+  //   font-size: 15px;
+  // }
+  &-Button3{
+    height: 32px;
+    width: 95px;
+    border-radius: 8px;
+    border: none;
+    color: #F0F3F8;
+    background-color: #9e48f9;
+    font-size: 15px;
+  }
+  &-Button4{
+    height: 32px;
+    width: 95px;
+    border-radius: 8px;
+    border: none;
+    color: #F0F3F8;
+    background-color: #8A29EF;
+    font-size: 15px;
+  }
+  &--nofooter{
+    display: none;
+  }
+}
+
+.SPCanvas-canvas .CanvasComponent .CanvasZone--read > div{
+  margin: 0 auto;
+}

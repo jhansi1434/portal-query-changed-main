@@ -1,0 +1,74 @@
+{
+  "id": "88508357-4fa4-45bd-b3c6-1cc766c2f0e8",
+  "alias": "MasterPageRow2WebPart",
+  "componentType": "WebPart",
+  "version": "4.0.4",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "MasterPageRow2"
+      },
+      "description": {
+        "default": "MasterPageRow2 description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "MasterPageRow2"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/dist/"
+    ],
+    "entryModuleId": "master-page-row-2-web-part",
+    "scriptResources": {
+      "master-page-row-2-web-part": {
+        "type": "path",
+        "path": "master-page-row-2-web-part_e664c77f86787a395d82.js"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.16.1"
+      },
+      "@microsoft/sp-http-base": {
+        "type": "component",
+        "id": "8496636c-2300-4915-abef-20de64c98d8b",
+        "version": "1.16.1"
+      },
+      "MasterPageRow2WebPartStrings": {
+        "type": "path",
+        "path": "MasterPageRow2WebPartStrings_en-us_e8a849b581bbcb862b8824f17050cd4f.js"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.16.1"
+      },
+      "react": {
+        "type": "component",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "version": "17.0.1"
+      },
+      "react-dom": {
+        "type": "component",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "version": "17.0.1"
+      }
+    }
+  }
+}

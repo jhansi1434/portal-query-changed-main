@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "landing-page-row-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/landingPageRow1/LandingPageRow1WebPart.js",
+          "manifest": "./src/webparts/landingPageRow1/LandingPageRow1WebPart.manifest.json"
+        }
+      ]
+    },
+    "master-page-row-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/masterPageRow2/MasterPageRow2WebPart.js",
+          "manifest": "./src/webparts/masterPageRow2/MasterPageRow2WebPart.manifest.json"
+        }
+      ]
+    },
+    "master-page-row-3-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/masterPageRow3/MasterPageRow3WebPart.js",
+          "manifest": "./src/webparts/masterPageRow3/MasterPageRow3WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LandingPageRow1WebPartStrings": "lib/webparts/landingPageRow1/loc/{locale}.js",
+    "MasterPageRow2WebPartStrings": "lib/webparts/masterPageRow2/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "MasterPageRow3WebPartStrings": "lib/webparts/masterPageRow3/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,9 @@
+export declare const getAnnouncementsData: (props: any) => Promise<any>;
+export declare const getBirthdayData: (props: any) => Promise<any>;
+export declare const getTrainingsdata: (props: any) => Promise<any>;
+export declare const getTasksdata: (props: any) => Promise<any>;
+export declare const getNewsData: (props: any) => Promise<any>;
+export declare const getOpinionPollData: (props: any) => Promise<any>;
+export declare const getImagedata: (props: any) => Promise<any>;
+export declare const getLinksData: (props: any) => Promise<any>;
+//# sourceMappingURL=SpServices.d.ts.map

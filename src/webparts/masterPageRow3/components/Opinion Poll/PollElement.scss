@@ -1,0 +1,29 @@
+.PoleClass h1{
+    font-size: 18px;
+    margin: 16px 1px;
+    padding-top: 2px;
+}
+
+._1xGEd{
+    align-items: flex-start;
+}
+.opinion{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 2%;
+    font-size: large;
+    font-weight: 700;
+}
+
+.pollbtn{
+    background: hsla(0,0%,100%,.631372549) 0 0 no-repeat padding-box;
+    padding: 10px 0;
+    margin: 1%;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 7px;
+    border: none;
+    border-radius: 13px;
+    width: 93%;
+}

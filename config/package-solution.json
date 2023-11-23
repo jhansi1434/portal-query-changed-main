@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "landing-page-new",
+    "id": "a8946d45-63fd-4949-8cf5-cdc8efc221b6",
+    "version": "1.0.0.30",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "LandingPage description"
+      },
+      "longDescription": {
+        "default": "LandingPage description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "landingPage Feature",
+        "description": "The feature that activates elements of the landing-page solution.",
+        "id": "03935cf6-fa0e-482a-9c17-cc928a1b2685",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/landing-page.sppkg"
+  }
+}

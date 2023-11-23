@@ -1,0 +1,115 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Containers3 {
+  span {
+    display: none;
+    word-spacing: 10px;
+    text-decoration: none;
+  }
+  padding: 0px;
+  color: black;
+  background: #F0F3F8;;
+  font-size: 12px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+
+.row32{
+  // height: 96%;
+  width: 104%;
+  //text-align: center;
+  color: #000;
+  overflow-y: scroll;
+  // padding: 1px 50px;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  }
+
+.row31{
+  background-color: #345978;
+  position: relative;
+  z-index: 9999;
+  height: 29px;
+  top: 0px;
+  color: white;
+  }
+  table.training_table {
+    text-align: center;
+    padding: 15px 145px;;
+  }
+
+
+.inCard1 {
+  width: 99%;
+  height: 265px;
+  margin: 16px 0;
+  border-radius: 16px;
+  padding: 20px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  &.bg-gradient-one{
+    background:  linear-gradient(to bottom, #2adb81 0%, #23db8ffc 3%, #09e7d3 100%);
+  }
+  &.bg-gradient-two{
+    background: linear-gradient(to bottom, #F86827 0%, #F3A719 100%);
+  }
+  &--header {
+    text-align: left;
+    color: #fff;
+    &.one{
+      font-size: 14px; 
+    }
+    &.two{
+      font-size: 22px; 
+    }
+  }
+
+#mulAnswer1{
+  background: hsl(0deg 22.21% 97.15% / 35%) 0 0 no-repeat padding-box;
+  border-radius: 10px;
+}
+
+.Footer1{
+  padding: 10px;
+  margin: auto;
+  
+  // &-Button-One{
+  //   height: 30px;
+  //   width: 90px;
+  //   border-radius: 8px;
+  //   border: none;
+  //   color: #48535e;
+  //   background-color: #FFFFFF;
+  //   font-size: 15px;
+  // }
+  &-Button-Two{
+    height: 30px;
+    width: 90px;
+    border-radius: 8px;
+    border: none;
+    color: #be3bce;
+    background-color: #FFFFFF;
+    font-size: 15px;
+  }
+}
+
+.round1 li {
+  background: hsla(0,0%,100%,.23137254901960785) 0 0 no-repeat padding-box;
+  border-radius: 16px;
+  padding: 14px;
+  color: #fff;
+  margin: 4px;
+  text-align: left;
+  font-size: 16px;
+}
+ 
+}
